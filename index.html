@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NyL Indumentaria</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: white;
+      text-align: center;
+      padding: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    header p {
+      margin: 5px 0 0;
+      color: #666;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .card h2 {
+      margin: 10px 0 5px;
+    }
+    .card p {
+      color: #666;
+      margin-bottom: 15px;
+    }
+    .card a {
+      display: inline-block;
+      background: #25d366;
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    .card a:hover {
+      background: #20b954;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>NyL Indumentaria</h1>
+    <p>Creado con mucho amor y estilo</p>
+  </header>
+
+  <section class="grid">
+    <!-- Remeras -->
+    <div class="card">
+      <img src="https://via.placeholder.com/300x300.png?text=Remera" alt="Remera">
+      <h2>Remeras</h2>
+      <p>Diseños cómodos y modernos</p>
+      <a href="https://wa.me/543416942257?text=Hola!%20Quiero%20comprar%20una%20remera.">Comprar por WhatsApp</a>
+    </div>
+
+    <!-- Buzos -->
+    <div class="card">
+      <img src="https://via.placeholder.com/300x300.png?text=Buzo" alt="Buzo">
+      <h2>Buzos</h2>
+      <p>Abrigos con estilo</p>
+      <a href="https://wa.me/543416942257?text=Hola!%20Quiero%20comprar%20un%20buzo.">Comprar por WhatsApp</a>
+    </div>
+
+    <!-- Pantalones -->
+    <div class="card">
+      <img src="https://via.placeholder.com/300x300.png?text=Pantalon" alt="Pantalón">
+      <h2>Pantalones</h2>
+      <p>Comodidad en cada paso</p>
+      <a href="https://wa.me/543416942257?text=Hola!%20Quiero%20comprar%20un%20pantalon.">Comprar por WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 NyL Indumentaria - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
